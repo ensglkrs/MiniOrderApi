@@ -89,4 +89,5 @@ The project follows a modular N-Tier architecture to ensure separation of concer
 
 This project is developed for educational and portfolio purposes.
 
-Created by Enes Gülkurusu.
+`Created by Enes Gülkurusu.`
+
