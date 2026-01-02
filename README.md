@@ -69,7 +69,7 @@ The project follows a modular N-Tier architecture to ensure separation of concer
 ## API Endpoints Overview
 
 ### Auth
-* `POST /api/auth/register`: Register a new user.
+* `POST /api/auth/register`: Register a new .
 * `POST /api/auth/login`: Authenticate and receive a Bearer Token.
 
 ### Products
@@ -80,7 +80,7 @@ The project follows a modular N-Tier architecture to ensure separation of concer
 
 ### Orders
 * `POST /api/orders`: Place a new order. The system automatically identifies the customer from the token.
-* `GET /api/orders`: Retrieve order history for the authenticated user.
+* `GET /api/orders`: Retrieve order history for the authenticated .
 
 ### Dashboard (Admin Only)
 * `GET /api/dashboard/stats`: Retrieve high-level metrics (Revenue, Total Orders, Best Seller).
@@ -88,3 +88,5 @@ The project follows a modular N-Tier architecture to ensure separation of concer
 ## License
 
 This project is developed for educational and portfolio purposes.
+
+Created by Enes Gülkurusu.
