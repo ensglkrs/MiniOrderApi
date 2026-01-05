@@ -93,7 +93,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
-builder.Services.AddScoped<IDashboardService, DashboardService>(); // <--- WEEK 14 EKLENTÝSÝ BURADA!
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 // 8. Validators
 builder.Services.AddScoped<FV.IValidator<CreateCustomerRequest>, CreateCustomerValidator>();
